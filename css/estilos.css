@@ -112,7 +112,10 @@ h1 {
 }
 
 .tecla_tic{
-  background-image: url("../");
+  background-image: url("../images/Dexter.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
   
 }
 
