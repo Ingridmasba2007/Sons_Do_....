@@ -69,7 +69,7 @@ h1 {
   background-image:url("../images/horadaaventura.jpeg");
   background-size: 100%;
  }
- 
+
 .tecla_clap{
   background-image: url("../images/scooby-doo-1.webp");
   background-size:200%;
@@ -85,7 +85,7 @@ h1 {
 }
 
 .tecla_puff{
-  background-image:url("../images/tom\ \ e\ jerry.jpg") ;
+  background-image:url("../images") ;
   background-position: center;
   background-size: 210%;
   background-repeat: no-repeat;
