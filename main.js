@@ -1,12 +1,9 @@
 function somHoraDeAventura (){
-    document.querySelector('.tecla tecla_pom').onclick = somHoraDeAventura();
-
-
+    document.querySelector('#som_tecla_pom').play();
 }
+    document.querySelector('tecla_pom').onclick = somHoraDaAventura
 
-function somBen10(){
-    document.querySelector('.tecla tecla_clap').onclick = somBen10();
-
-
+function somBen10 (){
+    document.querySelector('#som_tecla_clap').play();
 }
-
+    document.querySelector('tecla_clap').onclick = omBen10
