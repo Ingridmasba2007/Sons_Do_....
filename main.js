@@ -5,4 +5,4 @@ function somHoraDeAventura (){
 }
     document.querySelector('.tecla_pom').onclick = somHoraDeAventura
 
-listaDasTeclas[5].onclick = somHoraDeAventura
+listaDasTeclas[8].onclick = somHoraDeAventura
