@@ -1,3 +1,5 @@
+const listaDasTeclas = document.querySelectorAll('.tecla')
+
 function somHoraDeAventura (){
     document.querySelector('#som_tecla_pom').play();
 }
