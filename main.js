@@ -1,7 +1,7 @@
 const listaDasTeclas = document.querySelectorAll('.tecla')
 
 let contador = 0;
-    while (contador < 9){
+    while (contador < listaDasTeclas.length){
         listaDasTeclas[contador].onclick = somHoraDeAventura
         contador = contador + 1;
     }
