@@ -6,7 +6,7 @@ let contador = 0;
         contador = contador + 1;
     }
 
-function somHoraDeAventura (){
+function som3X3(){
     document.querySelector('#som_tecla_pom').play();
 }
     document.querySelector('.tecla_pom').onclick = somHoraDeAventura
