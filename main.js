@@ -14,7 +14,7 @@ const listaDasTeclas = document.querySelectorAll(".tecla")
         listaDasTeclas[contador].onclick = function(){
             
 
-            som3X3("#som_tecla_splash");
+            som3X3(`#som_${Instrumento}`);
         
         }
         contador = contador + 1;
