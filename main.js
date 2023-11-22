@@ -5,7 +5,7 @@ function som3X3(idElemento){
 
 
 let contador = 0;
-const listaDasTeclas = querySelectorall(".tecla")
+const listaDasTeclas = querySelectorAll(".tecla")
 
     while (contador < listaDasTeclas.length){
         listaDasTeclas[contador].onclick = function(){
