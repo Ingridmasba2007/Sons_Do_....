@@ -9,8 +9,8 @@ function som3X3(idElemento){
 let contador = 0;
     while (contador < listaDasTeclas.length){
         listaDasTeclas[contador].onclick = function(){
-         const Instrumento = listaDasTeclas[contador].classList
-         console.log(Instrumento)   
+            const Instrumento = listaDasTeclas[contador].classList
+            console.log(Instrumento)   
             som3X3("#som_tecla_splash");
         
         }
