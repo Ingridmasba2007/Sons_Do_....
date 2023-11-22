@@ -1,12 +1,12 @@
 
-
-
 function som3X3(idElemento){
     document.querySelector(idElemento).play();
 }
 
 
 let contador = 0;
+const listaDasTeclas = querySelectorall(".tecla")
+
     while (contador < listaDasTeclas.length){
         listaDasTeclas[contador].onclick = function(){
             const Instrumento = listaDasTeclas[contador].classList
