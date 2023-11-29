@@ -14,8 +14,8 @@ while (contador < listaDasTeclas.length){
 
     listaDasTeclas[contador].onclick = function(){
             
-    som3X3(`#som_${Instrumento}`);
-         
+    som3X3(`#som_${Instrumento[1]}`);
+
     }
     contador = contador + 1;
 }
