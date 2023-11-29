@@ -4,11 +4,11 @@ function som3X3(idElemento){
 }
 
 
-let contador = 0;
+
 
 const listaDasTeclas = document.querySelectorAll(".tecla")
 
-while (contador < listaDasTeclas.length){
+for(let contador= 0; contador < listaDasTeclas.length; contador++ ){
     const Instrumento = listaDasTeclas[contador].classList
     console.log(Instrumento)
 
@@ -17,7 +17,7 @@ while (contador < listaDasTeclas.length){
     som3X3(`#som_${Instrumento[1]}`);
 
     }
-    contador = contador + 1;
+   
 }
 
    
