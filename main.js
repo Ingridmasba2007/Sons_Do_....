@@ -20,4 +20,3 @@ for(let contador= 0; contador < listaDasTeclas.length; contador++ ){
    
 }
 
-   
